@@ -7,7 +7,7 @@ import javax.persistence.*;
  * Github : http://github.com/sskim91
  */
 @Entity
-public class Delivery {
+public class Delivery extends BaseEntity {
 
     @Id
     @GeneratedValue

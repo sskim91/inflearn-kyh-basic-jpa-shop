@@ -9,7 +9,7 @@ import java.util.List;
  * Github : http://github.com/sskim91
  */
 @Entity
-public class Category {
+public class Category extends BaseEntity {
 
     @Id
     @GeneratedValue
