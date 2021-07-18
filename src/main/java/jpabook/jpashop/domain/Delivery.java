@@ -15,9 +15,8 @@ public class Delivery extends BaseEntity {
     @GeneratedValue
     private Long id;
 
-    private String name;
-    private String city;
-    private String street;
+    @Embedded
+    private Address address;
 
     @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
